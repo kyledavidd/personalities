@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: white; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  flex-direction: column; 
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+img {
+  width: 300px;  
+  height: 300px; 
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;  
+  gap: 10px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 0.9em;
+  background-color: #2274e0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.small-button {
+  padding: 4px 8px;
+  font-size: 0.8em;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
